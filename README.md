@@ -50,6 +50,22 @@ Go to Automation to schedule backups
 
 Minimize to tray to let it run in the background
 
+🛠️ Dependencies
+
+customtkinter
+
+pystray
+
+pillow
+
+pyinstaller
+
+darkdetect
+
+pywin32-ctypes
+
+(See requirements.txt for full list)
+
 📝 License
 
 This project is licensed under the MIT License – see LICENSE
