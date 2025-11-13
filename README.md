@@ -1,72 +1,20 @@
-🗂️ Smart Organizer Pro v5
+# 🗂️ Smart Organizer Pro v5
 
-Smart Organizer Pro v5 is a Python desktop application that automatically organizes and backs up your files. It includes manual backup, scheduled automation, and system tray integration for seamless operation.
+[![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/version-5.0-green.svg)]()
 
-✨ Features
+> Effortlessly organize, sort, and back up your files with automation and smart features.
 
-🖱️ Manual Backup – Backup selected folders instantly
+---
 
-⏰ Scheduled Backup – Run every hour or daily at a specific time
+## ✨ Features
 
-🧩 Duplicate Detection – Prevent copying duplicate files using MD5 hashes
-
-📂 Smart Folder Organization – Automatically sorts files by type and creation date
-
-📊 Real-Time Logs & Progress – Monitor backup activity live
-
-🖥️ System Tray Integration – Keep the app running in the background
-
-⚡ Installation
-
-Clone the repository:
-
-git clone https://github.com/TuanBulut/SmartOrganizer.git
-cd SmartOrganizer
-
-
-Create a virtual environment and install dependencies:
-
-python -m venv .venv
-# Activate virtual environment
-# Windows:
-.venv\Scripts\activate
-# macOS/Linux:
-source .venv/bin/activate
-
-pip install -r requirements.txt
-
-🚀 Usage
-
-Run the application:
-
-python smart_file_organizer_pro_v5.py
-
-
-Select your source folder and backup folder
-
-Click Manual Backup to run immediately
-
-Go to Automation to schedule backups
-
-Minimize to tray to let it run in the background
-
-🛠️ Dependencies
-
-customtkinter
-
-pystray
-
-pillow
-
-pyinstaller
-
-darkdetect
-
-pywin32-ctypes
-
-(See requirements.txt for full list)
-
-📝 License
-
-This project is licensed under the MIT License – see LICENSE
- for details.
+| Feature | Description |
+|---------|-------------|
+| 🖱️ **Manual Backup** | Instantly back up selected folders. |
+| ⏰ **Scheduled Backup** | Run backups every hour or at a specific time daily. |
+| 🧩 **Duplicate Detection** | Avoid duplicates using MD5 hash verification. |
+| 📂 **Smart Organization** | Automatically sort files by type and creation date. |
+| 📊 **Real-Time Logs** | Monitor backup activity live. |
+| 🖥️ **System Tray Support** | Keep the app running in the background. |
